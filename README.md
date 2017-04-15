@@ -15,3 +15,8 @@
 Keywords: VANET /Intelligent Vehicle/ARM11
 
 # Top Design
+    Hardware system mainly contains : Embedded System SOC, Data Storage, interface, motor, vehicle model and power manager.
+    Software system use the Linux System and kernel driver.
+    As follow shows the graph
+    ![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/137347942FBB4314BD30529112086D50/4477)
+
