@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/plugins/input_control
+END
+dynctrl.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/plugins/input_control/dynctrl.c
+END
+dynctrl.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/plugins/input_control/dynctrl.h
+END
+uvc_compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/11/trunk/plugins/input_control/uvc_compat.h
+END
+uvcvideo.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11/trunk/plugins/input_control/uvcvideo.h
+END
+input_uvc.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/11/trunk/plugins/input_control/input_uvc.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/trunk/plugins/input_control/Makefile
+END

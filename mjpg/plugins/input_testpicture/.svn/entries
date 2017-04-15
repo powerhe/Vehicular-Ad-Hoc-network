@@ -1,0 +1,67 @@
+8
+
+dir
+12
+http://mjpg-streamer-mini2440.googlecode.com/svn/trunk/plugins/input_testpicture
+http://mjpg-streamer-mini2440.googlecode.com/svn
+
+
+
+2010-01-13T04:50:28.638520Z
+5
+v.s.fonov@ilmarin.info
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50bf83c6-f75f-11de-8f43-4547254af6c6
+
+testpictures.h
+file
+
+
+
+
+2011-01-13T09:57:30.000000Z
+f8b2c2d0e5fd38090f11a51037b86fba
+2010-01-02T05:28:06.917480Z
+2
+v.s.fonov@ilmarin.info
+
+input_testpicture.c
+file
+
+
+
+
+2011-01-13T09:57:30.000000Z
+71f720f8975f6743a4ba9f34d61dabe0
+2010-01-02T05:28:06.917480Z
+2
+v.s.fonov@ilmarin.info
+
+Makefile
+file
+
+
+
+
+2011-01-13T09:57:30.000000Z
+e44baf44409f1a6b54d5bdad5bf446fd
+2010-01-13T04:50:28.638520Z
+5
+v.s.fonov@ilmarin.info
+
+pictures
+dir
+

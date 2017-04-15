@@ -1,0 +1,45 @@
+﻿body{
+	width:98%;height:auto;background:url(bg.jpg) repeat-x;text-align:center;
+}
+#wrap{
+	width:1003px;height:auto;margin:10px auto;
+}
+#main{
+	width:1003px;height:auto;float:left;
+}
+#left{
+	width:542px;height:auto;float:left;padding:15px;
+}
+#right{
+	width:420px;height:auto;float:right;margin:20px auto;
+}
+#right td{
+	width:130px;height:90px;
+}
+.auto{
+	background-image:url(auto.jpg);width:125px;height:58px;border:0;
+}
+.manual{
+	background-image:url(manual.jpg);width:125px;height:58px;border:0;
+}
+.key{
+	background-image:url(key.jpg);width:125px;height:58px;border:0;
+}
+.up{
+	background-image:url(up.jpg);width:125px;height:58px;border:0;
+}
+.left{
+	background-image:url(left.jpg);width:125px;height:58px;border:0;
+}
+.stop{
+	background-image:url(stop.jpg);width:125px;height:58px;border:0;
+}
+.right{
+	background-image:url(right.jpg);width:125px;height:58px;border:0;
+}
+.down{
+	background-image:url(down.jpg);width:125px;height:58px;border:0;
+}
+#foot{
+	color:white;
+}

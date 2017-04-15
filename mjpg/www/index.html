@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>基于车载自组网络模式的小车互联应用开发演示界面</title>
+<link rel="stylesheet" href="css.css" type="text/css" />
+<script type="text/javascript">
+
+      /* Copyright (C) 2007 Richard Atterer, richard©atterer.net
+       * This program is free software; you can redistribute it and/or modify it
+       * under the terms of the GNU General Public License, version 2. See the file
+       * COPYING for details.
+       */
+
+      var imageNr = 0; // Serial number of current image
+      var finished = new Array(); // References to img objects which have finished downloading
+      var paused = false;
+      var previous_time = new Date();
+
+      function createImageLayer() {
+      	onkey();
+        var img = new Image();
+        img.style.position = "absolute";
+        img.style.zIndex = -1;
+        img.onload = imageOnload;
+        img.onclick = imageOnclick;
+        img.width = 512;
+        img.height = 384;
+        img.src = "/?action=snapshot&n=" + (++imageNr);
+        var webcam = document.getElementById("webcam");
+        webcam.insertBefore(img, webcam.firstChild);
+      }
+
+      // Two layers are always present (except at the very beginning), to avoid flicker
+      function imageOnload() {
+        this.style.zIndex = imageNr; // Image finished, bring to front!
+        while (1 < finished.length) {
+          var del = finished.shift(); // Delete old image(s) from document
+          del.parentNode.removeChild(del);
+        }
+        finished.push(this);
+        current_time = new Date();
+        delta = current_time.getTime() - previous_time.getTime();
+        fps   = (1000.0 / delta).toFixed(3);
+        document.getElementById('info').firstChild.nodeValue = delta + " ms (" + fps + " fps)";
+        previous_time = current_time;
+        if (!paused) createImageLayer();
+      }
+
+      function imageOnclick() { // Clicking on the image will pause the stream
+        paused = !paused;
+        if (!paused) createImageLayer();
+      }
+      
+      function onkey()
+	{
+		 document.onkeydown = showKeyDown;
+	}
+	
+	 function showKeyDown(evt) {
+	   evt = (evt) ? evt : window.event;
+	   if ( evt.keyCode=='39' ) //->右箭头
+	   {
+	     window.location="http://192.168.1.230/control.cgi?control=4";
+	   }
+	   if ( evt.keyCode=='37' ) //->左箭头
+	   {
+	     window.location="http://192.168.1.230/control.cgi?control=3";
+	   }
+	   if ( evt.keyCode=='38' ) //->上箭头
+	   {
+	     window.location="http://192.168.1.230/control.cgi?control=1";
+	   }
+	   if ( evt.keyCode=='40' ) //->下箭头
+	   {
+	     window.location="http://192.168.1.230/control.cgi?control=2";
+	   }
+	   if ( evt.keyCode=='35' ) //->End
+	   {
+	     window.location="http://192.168.1.230/control.cgi?control=8";
+	   }
+   }
+
+
+
+    </script>
+</head>
+
+<body onload="createImageLayer();">
+<div id="wrap">
+<h2 align="center">基于车载自组网络模式的小车互联应用开发</h2>
+<h3 align="right">成员：何力 叶彬 袁野 张新选</h3>
+<div id="main">
+<div id="right">
+	<table width="100%" cellpadding="0" cellspacing="0">
+		<tr><td><input type="button" class="auto" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=0';"/></td>
+		    <td><input type="button" class="manual" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=9';"/></td>
+		    <td><input type="button" class="key" onclick="onkey()"/></td></tr>
+		<tr><td colspan="3"><input type="button" class="up" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=1';"/></td></tr>
+		<tr><td><input type="button" class="left" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=3';"/></td>
+		    <td><input type="button" class="stop" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=8';"/></td>
+		    <td><input type="button" class="right" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=4';"/></td></tr>
+		<tr><td colspan="3"><input type="button" class="down" onclick="javascript:location.href='http://192.168.1.230/control.cgi?control=2';"/></td></tr>
+	</table>
+</div>
+<div id="left">
+	<div id="webcam" style="width:512px;height:394px;"><noscript><img src="/?action=snapshot" width="512px" height="384px"/></noscript></div>
+</div>
+</div>
+<div><p id="info">-</p></div><div id="msg"></div>
+<div id="foot"><br/><br/>
+<p>&copy; The VANET team | Design by USTC 2011.10~2012.5</p>
+</div>
+</div>
+</body>
+
+</html>

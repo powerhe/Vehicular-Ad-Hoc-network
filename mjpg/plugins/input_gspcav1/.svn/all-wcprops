@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/plugins/input_gspcav1
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/utils.c
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/utils.h
+END
+spcaframe.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/spcaframe.h
+END
+spcav4l.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/spcav4l.c
+END
+encoder.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/encoder.c
+END
+marker.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/marker.c
+END
+spcav4l.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/spcav4l.h
+END
+input_gspcav1.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/input_gspcav1.c
+END
+jconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/jconfig.h
+END
+huffman.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/huffman.c
+END
+encoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/encoder.h
+END
+marker.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/marker.h
+END
+quant.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/quant.c
+END
+readme.spcacat
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/readme.spcacat
+END
+huffman.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/huffman.h
+END
+jdatatype.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/jdatatype.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/trunk/plugins/input_gspcav1/Makefile
+END
+quant.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/plugins/input_gspcav1/quant.h
+END

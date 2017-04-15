@@ -1,0 +1,52 @@
+8
+
+dir
+12
+http://mjpg-streamer-mini2440.googlecode.com/svn/trunk/plugins/output_file
+http://mjpg-streamer-mini2440.googlecode.com/svn
+
+
+
+2010-01-13T04:50:28.638520Z
+5
+v.s.fonov@ilmarin.info
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50bf83c6-f75f-11de-8f43-4547254af6c6
+
+output_file.c
+file
+
+
+
+
+2011-01-13T09:57:18.000000Z
+8d73252c3014271b7511faf4d72b4115
+2010-01-02T05:28:06.917480Z
+2
+v.s.fonov@ilmarin.info
+
+Makefile
+file
+
+
+
+
+2011-01-13T09:57:18.000000Z
+23de26c1c621154f06a201b628e54a8d
+2010-01-13T04:50:28.638520Z
+5
+v.s.fonov@ilmarin.info
+

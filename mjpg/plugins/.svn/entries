@@ -1,0 +1,79 @@
+8
+
+dir
+12
+http://mjpg-streamer-mini2440.googlecode.com/svn/trunk/plugins
+http://mjpg-streamer-mini2440.googlecode.com/svn
+
+
+
+2010-04-22T08:45:44.454070Z
+11
+v.s.fonov@ilmarin.info
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+50bf83c6-f75f-11de-8f43-4547254af6c6
+
+output_file
+dir
+
+output_http
+dir
+
+input_control
+dir
+
+input_gspcav1
+dir
+
+input.h
+file
+
+
+
+
+2011-01-13T09:57:30.000000Z
+439092b6e76a213277c20ef16c8c0063
+2010-04-22T08:45:44.454070Z
+11
+v.s.fonov@ilmarin.info
+
+output.h
+file
+
+
+
+
+2011-01-13T09:57:30.000000Z
+d5cb1690258023d41f9b30d6239af02f
+2010-04-22T08:45:44.454070Z
+11
+v.s.fonov@ilmarin.info
+
+output_autofocus
+dir
+
+input_testpicture
+dir
+
+input_uvc
+dir
+
+input_file
+dir
+
+input_s3c2410
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/5/trunk/plugins/output_autofocus
+END
+processJPEG_onlyCenter.c
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/plugins/output_autofocus/processJPEG_onlyCenter.c
+END
+output_autofocus.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/plugins/output_autofocus/output_autofocus.c
+END
+processJPEG_onlyCenter.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/plugins/output_autofocus/processJPEG_onlyCenter.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/plugins/output_autofocus/Makefile
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/plugins/input_s3c2410
+END
+input_s3c2410.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/plugins/input_s3c2410/input_s3c2410.c
+END
+s3c2410.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/plugins/input_s3c2410/s3c2410.c
+END
+utils.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/trunk/plugins/input_s3c2410/utils.c
+END
+s3c2410.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/plugins/input_s3c2410/s3c2410.h
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/plugins/input_s3c2410/utils.h
+END
+readme.s3c2410
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/plugins/input_s3c2410/readme.s3c2410
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/plugins/input_s3c2410/Makefile
+END
