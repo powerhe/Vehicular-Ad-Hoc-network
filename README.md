@@ -18,7 +18,8 @@ Keywords: VANET /Intelligent Vehicle/ARM
     Hardware system mainly contains : Embedded System SOC, Data Storage, interface, motor, vehicle model and power manager.
     Software system use the Linux System and kernel driver.
     As follow shows the graph
-    ![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/137347942FBB4314BD30529112086D50/4477)    
+    ![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/137347942FBB4314BD30529112086D50/4477)      
+    
     802.11p standard top design graph
     ![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/1E50586E617E47948F3E74E22A752670/4484)
     
