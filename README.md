@@ -59,5 +59,4 @@ Keywords: VANET /Intelligent Vehicle/ARM
     o: username:password.: disabled 
     o: commandsuvcvideo: device USB2.0 PC CAMERA requested null bandwidth, defaulting to lowest.
     ```
-    
-    ![version](/image_for_readme/lip_image002.gif)
+![version](/image_for_readme/lip_image002.gif)
