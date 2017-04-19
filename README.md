@@ -47,4 +47,17 @@ Keywords: VANET /Intelligent Vehicle/ARM
     
 ![Graph](/image_for_readme/5.png)
     
- 
+ ## mjpg-streamer
+    ```
+    MJPG Streamer Version.: 2.0 
+    i: Using V4L2 device.: /dev/video2 
+    i: Desired Resolution: 640 x 480 
+    i: Frames Per Second.: 5 
+    i: Format............: MJPEG 
+    o: www-folder-path...: ./www/ 
+    o: HTTP TCP port.....: 8080 
+    o: username:password.: disabled 
+    o: commandsuvcvideo: device USB2.0 PC CAMERA requested null bandwidth, defaulting to lowest.
+    ```
+    
+    ![version](/image_for_readme/lip_image002.gif)
