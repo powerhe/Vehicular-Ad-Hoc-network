@@ -18,10 +18,10 @@ Keywords: VANET /Intelligent Vehicle/ARM
     Hardware system mainly contains : Embedded System SOC, Data Storage, interface, motor, vehicle model and power manager.
     Software system use the Linux System and kernel driver.
     As follow shows the graph
-![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/137347942FBB4314BD30529112086D50/4477)      
+![Graph](/image_for_readme/1.jpg)      
     
     802.11p standard top design graph
-![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/1E50586E617E47948F3E74E22A752670/4484)
+![Graph](/image_for_readme/2.jpg)
     
      Intelligent Vehicle work flow : 
      1. Smart Car get the information of distance through the sensor of ultrasound.
@@ -35,16 +35,16 @@ Keywords: VANET /Intelligent Vehicle/ARM
     Camera connect with ARM Core by USB, sensors connect with SOC by GPIO,
     between ARM Core and SOC, we use RS232
     
-![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/BFF6AABC74F149498CD76D79DE738278/4488)
+![Graph](/image_for_readme/3.jpg)
    
 ## Software System Design
     Based on Linux System
     
-![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/F1527459992F482B813E24F7B124A11B/4491)
+![Graph](/image_for_readme/4.jpg)
 
 ## Development Process
     Embedded System Software development process
     
-![Graph](http://note.youdao.com/yws/public/resource/8a58bafa01ba75404c7c508719c5f807/xmlnote/765C0F1E2C9F4046AB24EA735AF974B8/4494)
+![Graph](/image_for_readme/5.jpg)
     
  
