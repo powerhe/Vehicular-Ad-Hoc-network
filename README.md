@@ -18,10 +18,10 @@ Keywords: VANET /Intelligent Vehicle/ARM
     Hardware system mainly contains : Embedded System SOC, Data Storage, interface, motor, vehicle model and power manager.
     Software system use the Linux System and kernel driver.
     As follow shows the graph
-![Graph](/image_for_readme/1.jpg)      
+![Graph](/image_for_readme/1.png)      
     
     802.11p standard top design graph
-![Graph](/image_for_readme/2.jpg)
+![Graph](/image_for_readme/2.png)
     
      Intelligent Vehicle work flow : 
      1. Smart Car get the information of distance through the sensor of ultrasound.
@@ -35,16 +35,16 @@ Keywords: VANET /Intelligent Vehicle/ARM
     Camera connect with ARM Core by USB, sensors connect with SOC by GPIO,
     between ARM Core and SOC, we use RS232
     
-![Graph](/image_for_readme/3.jpg)
+![Graph](/image_for_readme/3.png)
    
 ## Software System Design
     Based on Linux System
     
-![Graph](/image_for_readme/4.jpg)
+![Graph](/image_for_readme/4.png)
 
 ## Development Process
     Embedded System Software development process
     
-![Graph](/image_for_readme/5.jpg)
+![Graph](/image_for_readme/5.png)
     
  
